@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+
+
+.container {
+    margin:0 auto;
+    
+    
+}
+h1{
+    font-size: 30px;
+}
+header{
+background-color: black;
+        height: 79px;
+}
+.logo{
+    float:left;
+    color: yellow;
+    font-size: 5em;
+    padding-left: 3%;
+}
+.tagline{
+        padding-right: 2%;
+    padding-top: 4%;
+    text-align: right;
+    color: #cccccc;
+    
+}
+.tagline .qwerty{
+    color: white;
+}
+
+.btn {
+      border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+    background-color: black;
+     border: 1px solid black;
+  padding: 10px 30px;
+}
+
+.first-section p{
+    display: inline-block;
+    top: 0;
+}
+.send{
+         margin-left: 5%;
+    top: 30%;
+    display: inline-block;
+    position: absolute;
+    margin-right: 75%;
+    font-size: 1.5em;
+}
+.smarty{
+     font-size: .5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.send .simply{
+    
+    
+}
+.second-section {
+    background-color: white;
+    padding-left: 5%;
+   padding-bottom: 4%;
+    padding-top: 3%;
+    
+}
+.row{
+    min-width: 960px;
+    padding: 30px 0 30px 0;
+    
+}
+.icons{
+    display: inline-block;
+    width: 33%;
+}
+h4{
+    text-align: center;
+    
+}
+
+.icons p{
+    text-align: center;
+}
+.row img{
+  padding-left: 45%;
+    padding-bottom: 5%;  
+}
+body{
+    background-color: #cccccc;
+    width: 100%
+}
+.third-section,
+.fourth-section{
+    background-color: white;
+}
+.fourth-section {
+        padding: 3% 0 28% 0%;
+    
+}
+.floater{
+      width: 41%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.floater img{
+    height: 353px;
+    padding-right: 45px;
+    width: 400px;
+}
+.some-text {  
+    margin-right: 58%;
+    display: inline-block;
+    position: absolute;
+    padding-top: 3%;
+    margin-left: 5%;
+}
+.some-text h4{
+    text-align: left;
+    
+}
+.some-text2{
+       display: inline-block;
+    position: absolute;
+    /* top: 0; */
+    margin-left: 20%;
+    margin-right: 12%;
+    margin-top: 4%;
+}
+.floater-2{
+    
+    display: inline-block;
+    
+    
+}
+.fifth-section{
+    
+    background-color: white;
+}
+.fifth-section h4{
+    text-align: left;
+}
+.sixth-section{
+    background-color: greenyellow;
+    text-align: center;
+    padding: 5% 0 5% 0;
+    font-size: 2em;
+    
+}
+.seventh-section{
+    display: block;
+    background-color: white;
+    padding-left: 5%;
+    text-align: left;
+     padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+.seventh-section h4{
+   
+    
+    text-align: left;
+    
+}
+.last-section{
+    background-color: black;
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 3% 0 2% 0;
+}
